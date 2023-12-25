@@ -4,6 +4,9 @@
 // It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
 // the compiled file.
 //
+//= required rails-ujs
+//= required jquery
 //= require jquery_ujs
+//= required turbolinks
 //= require twitter/bootstrap
 //= require_tree .
