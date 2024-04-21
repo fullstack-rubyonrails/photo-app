@@ -9,10 +9,17 @@ gem 'devise'
 gem 'stripe'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
+gem "hirb", "~> 0.7.3"
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
+# Image Uploader GEM
+gem 'carrierwave'
+# Image Resizing GEM
+gem 'mini_magick'
+# To work with images in Production
+# gem 'fog'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 4.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
